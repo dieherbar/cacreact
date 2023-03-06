@@ -3,4 +3,10 @@ let b = 2;
 
 console.log(a+b);
  console.log("hola");
-// alert("Hello! I am an alert box!!");
+alert("Hola, que tal?");
+let visitante = prompt("Ingrese su nombre");
+
+if (visitante != null) {
+  document.getElementById("demo").innerHTML =
+  "Hola " + visitante + "! Bienvenido al sitio";
+}
